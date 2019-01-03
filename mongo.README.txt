@@ -1,0 +1,4 @@
+返回所有库
+show dbs
+db.adminCommand('listDatabases')
+db.getMongo().getDBNames()
